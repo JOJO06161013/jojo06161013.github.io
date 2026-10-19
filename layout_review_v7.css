@@ -1,0 +1,72 @@
+/* === 全站阅读层级：文字沿留白排版，导航始终可用 === */
+:root{--nav-v7:76px;--media-v7:100svh;--paper:#eeede5}
+html{scroll-padding-top:var(--nav-v7)}
+header{position:fixed;height:var(--nav-v7);padding:18px 110px 18px 4%;background:#354334e8;backdrop-filter:blur(10px);border-bottom:1px solid #eff0dd22;z-index:12}
+header .brand{font-size:22px}header nav{gap:24px;font-size:12px}.language-fixed{top:16px;right:24px}
+.eyebrow,.section-tag,.section-number{font-size:10px;line-height:1.8;letter-spacing:.06em}
+.story{background:#787a66;clip-path:inset(0)}.scene-media{top:var(--nav-v7)}.scene-media img,.scene-media video{object-fit:contain}
+.story-shade{background:linear-gradient(90deg,#202c2270 0%,#202c2240 25%,transparent 38%)}
+.story-home{height:100svh;min-height:740px}
+.hero-copy{left:4%;top:20%;width:25%}
+.hero-copy h1,html[data-language=zh] .hero-copy h1{font-size:clamp(42px,4.35vw,72px);line-height:1.05;letter-spacing:-.035em;margin:20px 0}
+.hero-copy p{font-size:14px;line-height:1.9}.hero-copy .pill{font-size:12px;line-height:1.5;max-width:100%;gap:12px;padding:9px 10px 9px 16px}.pill span{flex-shrink:0}
+.story-aside{display:none}.story-home-bottom{left:4%;right:4%;font-size:10px;bottom:26px}.story-home-bottom #hint{font-size:10px}
+/* === 五秒素材分配约三屏滚动，阅读区保持静帧 === */
+.story-gap{height:350svh}
+.transition-caption-v7{position:absolute;left:4%;top:24%;width:25%;max-width:420px;opacity:0;color:#f5f2de;pointer-events:none}.transition-caption-v7 h2{font:400 clamp(34px,3.65vw,58px)/1.12 var(--display);letter-spacing:-.035em;margin:22px 0 30px}.transition-caption-v7 h2 em{font-style:normal;color:#dce0b6}html[data-language=zh] .transition-caption-v7 h2{font-weight:650}.chapter-line-v7{height:2px;width:95px;background:#e1e6ce44}.chapter-line-v7 i{display:block;width:100%;height:100%;background:#e1e6ce;transform-origin:left}
+.story-about,.story-work{padding:100px 4%;scroll-margin-top:0}
+.story-column{width:25vw;max-width:420px}
+.story-column h2,html[data-language=zh] .story-column h2{font-size:clamp(34px,3.65vw,58px);line-height:1.12;margin:20px 0 32px;letter-spacing:-.035em}
+.resume-card{padding:0;background:none;border:0;border-radius:0;box-shadow:none;color:#f4f2e5}
+.resume-card .summary{font-size:15px;line-height:1.9}.resume-card .text-link{font-size:13px;border-color:#e1e6cc88}
+.resume-card .timeline{margin-top:30px}.resume-card .timeline-item{padding:25px 0;border-color:#e0e4d444}
+.resume-card .timeline-item h3{font-size:18px;line-height:1.4;font-weight:600}
+.resume-card .timeline-item .date,.resume-card .timeline-item .role,.resume-card .timeline-item p,.resume-card .edu-item span{color:#e1e6d4;font-size:13px;line-height:1.9}
+.resume-card .timeline-item p{font-size:14px}.resume-card .education{border-color:#e0e4d444}.resume-card .edu-item strong{font-size:15px;line-height:1.6}.resume-card .skills span{font-size:12px;border-color:#e1e6cc66}
+.story-about>.story-column>.text-link{margin-top:26px;font-size:13px;border-color:#e1e6cc88}
+.story-work{min-height:110svh;display:flex;align-items:center}.story-work .story-column>p{font-size:15px}
+.folder-trigger{position:relative;left:auto;bottom:auto;display:block;width:100%;max-width:280px;margin:32px 0 0;aspect-ratio:1.5;flex-shrink:0}
+.folder-face strong{font-size:26px}.folder-face>span{font-size:12px}.folder-trigger:hover{transform:translateY(-4px)}
+/* === 作品和方法阅读区：统一留白、字号与图像比例 === */
+.work{position:relative;z-index:1;padding:80px 0 45px;background:#d9ddcd}.work-heading{padding-top:40px;padding-bottom:30px;gap:30px}.work h2,html[data-language=zh] .work h2{font-size:clamp(40px,4.4vw,68px);line-height:1.1}
+.work-description p{font-size:14px;line-height:1.8}.work-controls button{min-width:44px;min-height:44px}.work-controls span{font-size:12px}
+.work-strip{gap:32px;align-items:start}.project-card{flex-basis:52%;max-width:850px}.project-art{aspect-ratio:16/10!important;border-radius:10px}.project-card:hover .project-art{transform:none}
+.project-art .product-mockup{position:absolute;inset:0;width:100%;height:100%;margin:0;transform:none;border-radius:0;box-shadow:none;background:#cbd1bb;display:flex;flex-direction:column}.product-mockup .mockup-bar{display:none}.product-mockup img{width:100%;height:100%;object-fit:contain}
+.project-art .art-category,.project-art .art-index{display:none}
+.project-meta h3{font-size:26px;line-height:1.35}.project-card p{font-size:14px;line-height:1.85}.project-card .ownership{font-size:11px}.art-category{font-size:10px}.work-foot{font-size:10px}
+.approach{padding:85px 6%}.approach-grid{gap:10%}.approach h2,html[data-language=zh] .approach h2{font-size:clamp(40px,4.3vw,66px);line-height:1.1}.approach-text p{font-size:15px;max-width:500px;color:#d3ddc7}.approach h3{font-size:22px}
+.contact{padding-top:80px;min-height:calc(100svh - var(--nav-v7));display:flex;flex-direction:column}.contact h2,html[data-language=zh] .contact h2{font-size:clamp(42px,4.5vw,72px);line-height:1.08}.contact-grid{gap:9%;flex:1}.contact-grid>div>p{font-size:15px;color:#58674e}.contact-note{color:#58674e}.email{overflow-wrap:anywhere}.social-row a,.contact .text-link{font-size:14px}footer{font-size:10px;padding:30px 0}
+.case-body{max-width:1120px}.case-body>p,.case-body .case-row p{color:#43503c}.case-body .case-row h2{font-size:12px;line-height:1.8}.case-body .case-row{grid-template-columns:160px 1fr;gap:32px}.case-source{color:#59684d}.case-body #case-visual.has-gallery{aspect-ratio:auto!important}.group-card p{font-size:14px}
+/* === 结尾沿用全画幅，增加滚动空间，左侧文字不越过主体 === */
+.ending-v6{height:440svh}.ending-v6 .ending-stage{padding:var(--nav-v7) 4% 20px}.ending-v6 .ending-copy{width:25%;max-width:420px}.ending-v6 .ending-copy h2,html[data-language=zh] .ending-v6 .ending-copy h2{font-size:clamp(34px,3.5vw,56px)}
+.ending-v6 .ending-copy p{font-size:14px}.ending-media-v6{top:var(--nav-v7)}
+/* === 平板及手机：影像上方固定，内容在下方独立滚动 === */
+@media(max-width:1100px){
+ :root{--nav-v7:112px;--media-v7:min(38svh,56.25vw)}
+ header{display:block;padding:14px 5%;height:var(--nav-v7)}header .brand{font-size:21px}header nav{margin-top:13px;max-width:570px;justify-content:space-between;gap:10px;font-size:12px}header nav a[href="#contact"]{display:block}header nav button{font-size:11px;padding:7px 10px}
+ .language-fixed{top:12px;right:5%}
+ .scene-stage{height:var(--media-v7);margin-bottom:calc(-1 * var(--media-v7));top:var(--nav-v7);z-index:3;overflow:visible}
+ .scene-media{inset:0;top:0;height:100%;min-height:0;background:#787a66;box-shadow:0 16px 20px #787a66;overflow:hidden}.story-shade{display:none}
+ .scene-media img,.scene-media video{object-fit:contain}
+ .story-home{height:max(100svh,800px);min-height:800px}
+ .hero-copy{top:calc(var(--nav-v7) + var(--media-v7) + 80px);left:6%;width:88%}
+ .hero-copy h1,html[data-language=zh] .hero-copy h1{font-size:clamp(34px,6.2vw,46px);line-height:1.12;margin:12px 0}.hero-copy h1 br{display:none}.hero-copy h1 em{display:block}.hero-copy p{font-size:13px;line-height:1.8;margin:10px 0}.hero-copy p br{display:none}.hero-copy .eyebrow{font-size:10px}.hero-copy .pill{margin-top:9px;font-size:12px}
+ .pose-buttons{display:flex;top:calc(var(--nav-v7) + var(--media-v7) + 16px);left:50%;transform:translateX(-50%);gap:10px}.pose-buttons button{height:40px;width:40px;min-height:40px;background:#354334;border:1px solid #d8e0c6;border-radius:50%;font-size:18px}
+ .story-home-bottom{bottom:20px;left:6%;right:6%;font-size:10px}.story-home-bottom>span:first-child{display:none}.story-home-bottom #hint{max-width:160px;font-size:10px}
+ .story-gap{height:360svh}
+ .transition-caption-v7{left:6%;top:calc(100% + 65px);width:88%;max-width:none}.transition-caption-v7 h2{font-size:clamp(32px,6vw,46px);line-height:1.15}
+ .story-about,.story-work{padding:calc(var(--nav-v7) + var(--media-v7) + 35px) 6% 65px;scroll-margin-top:calc(-1 * var(--nav-v7))}
+ .story-column{width:100%;max-width:700px;margin:0 auto}.story-column h2,html[data-language=zh] .story-column h2{font-size:clamp(32px,6vw,46px);line-height:1.15}
+ .story-about>.story-column>.eyebrow,.story-about>.story-column>h2,.story-work>.story-column{background:none}.story-work>.story-column{padding:0}
+ .resume-card{padding:24px;background:#eeede5;color:#354334;border-radius:12px}.resume-card .timeline-item{border-color:#35433433}.resume-card .timeline-item .date,.resume-card .timeline-item .role,.resume-card .timeline-item p,.resume-card .edu-item span{color:#526345}.resume-card .text-link,.resume-card .education,.resume-card .skills span{border-color:#52634555}
+ .story-work{min-height:calc(100svh + 190px);align-items:flex-start;display:block}.folder-trigger{width:230px;max-width:75%;margin:28px 0 10px}.folder-face strong{font-size:25px}
+ .ending-v6{height:450svh}.ending-v6 .ending-stage{padding:calc(var(--nav-v7) + 24px) 0 24px;min-height:580px;display:flex;flex-direction:column;justify-content:center;align-items:stretch;gap:28px}
+ .ending-v6 .ending-copy{width:auto;max-width:none;margin:0 6%}.ending-v6 .ending-copy h2,html[data-language=zh] .ending-v6 .ending-copy h2{font-size:clamp(34px,6vw,46px);margin:15px 0}.ending-media-v6{position:relative;inset:auto;width:100%;aspect-ratio:16/9;flex-shrink:0}
+ .work-heading{flex-direction:column;align-items:start}.work-description{display:flex;align-items:center;justify-content:space-between;width:100%;gap:20px}.work-description p{max-width:60%;font-size:13px}.project-card{flex-basis:85%}.project-meta h3{font-size:23px}
+ .approach-grid,.contact-grid{grid-template-columns:1fr;gap:32px}.approach h2,html[data-language=zh] .approach h2{font-size:44px}.approach-text p{max-width:none}.case-body .case-row{grid-template-columns:1fr;gap:8px}.case-body .case-row h2{margin:0}.case-body .case-row p{font-size:15px}
+ .work,.approach,.contact{padding-top:55px}.work-heading{gap:24px}.work .section-tag,.contact .section-tag{font-size:9px}.section-tag span:last-child{max-width:45%;text-align:right}
+}
+@media(max-width:360px){header nav{font-size:11px;gap:6px}.hero-copy h1,html[data-language=zh] .hero-copy h1{font-size:32px}.hero-copy .pill{font-size:11px}.resume-card{padding:20px}.project-meta h3{font-size:21px}.work-description{align-items:start}.work-controls{gap:8px}.ending-v6 .ending-copy h2,html[data-language=zh] .ending-v6 .ending-copy h2{font-size:32px}}
+/* === 静态模式保持阅读可达，不需要穿过冗长动画区域 === */
+body.motion-static .story-gap{height:35svh}body.motion-static .ending-v6{height:100svh;min-height:650px}
+@media(prefers-reduced-motion:reduce){.story-gap{height:35svh}.ending-v6{height:100svh;min-height:650px}}

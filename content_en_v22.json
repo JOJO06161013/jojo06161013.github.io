@@ -1,0 +1,343 @@
+{
+  "name": "Yuqiao Liu",
+  "englishName": "Yuqiao Liu",
+  "location": "Beijing, China",
+  "role": "Data analytics · AI automation · Independent product development",
+  "email": "lyq19961013@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/yuqiaoliu0616",
+  "github": "",
+  "availability": "",
+  "portrait": "assets/hero_smile_v1.png",
+  "serviceScope": "",
+  "resume": "assets/Yuqiao_Liu_English_Resume_v2.pdf",
+  "summary": "An Emory University MPH graduate in Biostatistics and a UC Santa Barbara graduate in Statistics and Data Science. My experience spans pharmaceutical commercial data, real-world evidence and clinical statistics. I also independently build and operate PinPet. I turn complex requirements into reproducible data workflows and usable products.",
+  "education": [
+    {
+      "school": "Emory University",
+      "degree": "Master of Public Health · Biostatistics",
+      "year": "2024"
+    },
+    {
+      "school": "UC Santa Barbara",
+      "degree": "B.S. · Statistics and Data Science",
+      "year": "2022"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Sinohealth",
+      "role": "Senior Data Analyst",
+      "date": "Feb 2026 — Aug 2026",
+      "text": "Managed standardized monthly delivery of nationwide pharmaceutical commercial data and independently handled feedback and custom requirements for six pharmaceutical clients. Led a two-layer quality-control system combining LLM workflows with deterministic rules, automating approximately 80% of manual review work and reducing the recurring delivery cycle from five days to two."
+    },
+    {
+      "company": "IQVIA",
+      "role": "Biostatistician",
+      "date": "Oct 2024 — Feb 2026",
+      "text": "Served as the independent statistician for a heart-failure study, covering the SAP, SAS propensity score matching, TLF and reports. Supported data processing for an observational prostate-cancer study and developed and reviewed patient funnel code for an early breast-cancer real-world study."
+    },
+    {
+      "company": "Atlanta Medical Center",
+      "role": "Biostatistician",
+      "date": "May 2024 — Oct 2024",
+      "text": "Cleaned and analyzed more than 12,000 electronic medical records with Python / pandas for two chronic-disease real-world studies. Translated clinical questions into analytical tasks and reviewed and reproduced statistical analysis plans and outputs."
+    }
+  ],
+  "skills": [
+    "Python / pandas / NumPy",
+    "R / SAS / SQL / Stata",
+    "FastAPI / React / TypeScript",
+    "LP / MILP · SciPy / PuLP",
+    "AI-assisted workflows and automated testing",
+    "SAP / PSM / SDTM / ADaM / TLF"
+  ],
+  "projects": [
+    {
+      "id": "pinpet",
+      "title": "PinPet",
+      "subtitle": "From nutrition data to a working recipe product",
+      "category": "INDEPENDENT PRODUCT",
+      "ownership": "Independent product · Product / data / algorithms / full stack / operations",
+      "image": "assets/pinpet_v20/desktop_result_v1.png",
+      "url": "https://pinpet.cn",
+      "tags": [
+        "Python · LP / MILP",
+        "FastAPI",
+        "React / TypeScript",
+        "WeChat WebView",
+        "Data provenance",
+        "Testing & releases"
+      ],
+      "intro": "An independent product connecting structured data, constraint solving and usable interfaces.",
+      "background": "Turning a dog profile and ingredient choices into a recipe involves more than listing foods. The product must align units, life stages and constraints, then explain quantities, scores and data gaps in a form that users can inspect.",
+      "goal": "I owned product definition, reference research, data organization, the calculation engine, web and mobile interfaces, testing, deployment and ongoing maintenance. My responsibility was to connect these layers into a usable journey, rather than stop at a standalone calculation.",
+      "process": "I organized nutrient standards, ingredient and supplement data with sources, units and versions. A Python engine handles requirements, LP / MILP optimization, recipe evaluation and score explanations; the calculation kernel does not call an LLM. FastAPI connects it to React / TypeScript through a single engine bridge.\n\nOn the product side, desktop web supports detailed configuration and inspection. Mobile H5 guides users through selection, recipe results and meal plans; WeChat uses the H5 business pages alongside native login and recipe sharing. I also maintained tests, release preparation, backups and rollback procedures.",
+      "result": "The product connects dog profiles, ingredient selection, calculated recipes, nutrient details, saved recipes and calendar plans. The screenshots below show the live web product using a synthetic dog profile, plus an archived native sharing view. Scores illustrate software behavior under the current data and rules; they are not clinical validation or feeding recommendations.",
+      "metrics": "",
+      "galleryCaption": "Live product screenshots · synthetic profile · 2026-10-19",
+      "group": "independent",
+      "status": "published",
+      "sortOrder": 10,
+      "period": "Aug 2026 — Present",
+      "imageAlt": "PinPet desktop recipe result with score, composition and ingredient quantities",
+      "sourceNote": "Six web/H5 captures were taken on 2026-10-19 from pinpet.cn using a synthetic profile (3 years, 12 kg). H5 screenshots show the business pages shared with the mini-program, not a WeChat device test. The native sharing image is an archived developer-tool capture from 2026-09-25. Architecture and responsibility diagrams are based on the repository and the documented independent-product role.",
+      "gallery": [
+        {
+          "src": "assets/pinpet_v20/desktop_result_v1.png",
+          "alt": "01 / Desktop recipe result",
+          "title": "01 / Desktop recipe result",
+          "caption": "Score, composition, ingredient quantities and actions in one result view. Live calculation with a synthetic profile; no result values were edited.",
+          "format": "wide"
+        },
+        {
+          "src": "assets/pinpet_v20/desktop_nutrients_v1.png",
+          "alt": "02 / Inspect the nutrient details",
+          "title": "02 / Inspect the nutrient details",
+          "caption": "Expand the result to inspect nutrient amounts, reference bounds and status labels. Live desktop screenshot.",
+          "format": "wide"
+        },
+        {
+          "src": "assets/pinpet_v20/mobile_selection_v1.png",
+          "alt": "03 / Ingredient selection",
+          "title": "03 / Ingredient selection",
+          "caption": "The mobile H5 selection stalls organize ingredients into five steps, with manual choice, recommendations and exclusions.",
+          "format": "phone"
+        },
+        {
+          "src": "assets/pinpet_v20/mobile_result_v1.png",
+          "alt": "04 / Final preparation sheet",
+          "title": "04 / Final preparation sheet",
+          "caption": "The shared H5 result presents the dog profile, batch size, ingredient quantities and sharing entry. Browser capture, not a WeChat device screenshot.",
+          "format": "phone"
+        },
+        {
+          "src": "assets/pinpet_v20/mobile_report_v1.png",
+          "alt": "05 / Understand the result",
+          "title": "05 / Understand the result",
+          "caption": "The mobile report keeps the score breakdown, remaining gap and composition visible for review.",
+          "format": "phone"
+        },
+        {
+          "src": "assets/pinpet_v20/mobile_calendar_v1.png",
+          "alt": "06 / From recipe to plan",
+          "title": "06 / From recipe to plan",
+          "caption": "A synthetic three-day plan demonstrates how saved recipes connect to the meal calendar.",
+          "format": "phone"
+        },
+        {
+          "src": "assets/pinpet_v20/native_share_archive_v1.png",
+          "alt": "07 / Native WeChat sharing",
+          "title": "07 / Native WeChat sharing",
+          "caption": "Archived developer-tool capture, 2026-09-25: a structured preparation sheet with a native contact-sharing button. Historical interface evidence, not a current device test.",
+          "format": "wide"
+        },
+        {
+          "src": "assets/pinpet_v20/architecture_en_v1.svg",
+          "alt": "08 / System architecture",
+          "title": "08 / System architecture",
+          "caption": "One deterministic engine connects versioned data, API contracts and multiple interfaces. Simplified from the actual code; not a production monitoring screenshot.",
+          "format": "diagram"
+        },
+        {
+          "src": "assets/pinpet_v20/ownership_en_v1.svg",
+          "alt": "09 / My end-to-end work",
+          "title": "09 / My end-to-end work",
+          "caption": "Read in numbered order: define the product, structure data, build the engine, connect interfaces, verify behavior, and maintain releases.",
+          "format": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Bring review back to judgment",
+      "subtitle": "Sinohealth · Pharmaceutical data quality and review automation",
+      "category": "PROFESSIONAL EXPERIENCE",
+      "ownership": "Sinohealth work case · Led quality-control system development",
+      "image": "assets/sinohealth_v18/workflow_en_v18.svg",
+      "url": "",
+      "tags": [
+        "R / Shiny",
+        "Rule-based QC",
+        "AI-assisted review",
+        "Model evaluation",
+        "Excel delivery"
+      ],
+      "intro": "Flag exceptions with rules, organize evidence with AI, and keep adjustment decisions with the analyst.",
+      "background": "Monthly pharmaceutical data delivery involved repeated cleaning, anomaly checks and client-specific questions. Finding an unusual record was only the first step: analysts still needed to explain the signal and decide whether an adjustment was warranted.",
+      "goal": "I managed recurring data delivery and led development of a reusable QC workflow, separating deterministic checks, AI-assisted explanations and human decisions. The aim was to reduce repeated review work while keeping each adjustment traceable.",
+      "process": "I organized anomaly flags, recent monthly values and review fields into a consistent workflow. Rules identify candidate records; an R/Shiny prototype lets analysts inspect them, request structured AI explanations and export the results to Excel. The prompt explicitly prevents AI from approving adjustments.\n\nI also explored how to prioritize review using historical human labels. The archived experiment compares four model variants across a training month and a validation month, using precision–recall metrics, recall within the top-ranked records and estimated review volume. Missing human labels were treated as negative labels, which limits how the results can be interpreted.",
+      "result": "The archived materials include processing scripts, an AI explanation prototype, model comparison reports and review-list exports. In the two-month offline experiment, logistic regression ranked highest by PR-AUC. The model supports review prioritization; analysts retain the final adjustment decision.",
+      "metrics": "As stated in my résumé: approximately 80% of manual review work automated; recurring delivery reduced from 5 days to 2.",
+      "galleryCaption": "Original evaluation charts + a code-based workflow illustration",
+      "group": "sinohealth",
+      "status": "published",
+      "sortOrder": 20,
+      "period": "Feb 2026 — Aug 2026",
+      "sourceNote": "",
+      "steps": [
+        [
+          "01",
+          "Rule-based checks"
+        ],
+        [
+          "02",
+          "AI explanations"
+        ],
+        [
+          "03",
+          "Human review"
+        ]
+      ],
+      "gallery": [
+        {
+          "src": "assets/sinohealth_v18/workflow_en_v18.svg",
+          "alt": "Rules, AI explanations and human review",
+          "caption": "Workflow illustration reconstructed from the archived code. It is not a screenshot of an internal production system."
+        },
+        {
+          "src": "assets/sinohealth_v18/recall_topk_curves_v18.png",
+          "alt": "Original chart comparing recall within the top-ranked records for four models",
+          "caption": "Original offline evaluation · Recall@TopK. The horizontal axis is the fraction of ranked records reviewed; the vertical axis is the fraction of positive labels captured. This shows review-prioritization performance, not overall classification accuracy."
+        }
+      ],
+      "imageAlt": "Workflow illustration: rules flag exceptions, AI explains, people decide",
+      "visualLabel": "Workflow illustration"
+    },
+    {
+      "id": "research",
+      "title": "From research questions to reviewable statistical deliverables",
+      "subtitle": "IQVIA · Heart failure study",
+      "category": "BIOSTATISTICS / RWE",
+      "ownership": "IQVIA work case · Independent statistician",
+      "image": "assets/statistical_delivery_cover_v1.png",
+      "url": "",
+      "tags": [
+        "SAS",
+        "SAP",
+        "PSM",
+        "TLF",
+        "Statistical reporting"
+      ],
+      "intro": "Connecting the analysis plan, SAS matching and statistical reporting as the independent statistician.",
+      "background": "Statistical work for the heart failure study connected the research question to an analysis plan, executable programs and interpretable outputs. The central task was to carry the planned analysis through to delivery.",
+      "goal": "As the independent statistician, I prepared the Statistical Analysis Plan (SAP), programmed propensity score matching (PSM) in SAS, generated tables, listings and figures (TLFs), and delivered reports.",
+      "process": "Analysis plan → Statistical programs → Outputs\nI prepared the SAP, implemented propensity score matching in SAS, generated TLFs and brought the outputs together in reports.\n\nThe delivery chain links the planned analysis to its implementation and presentation. ",
+      "result": "Delivered the SAP, statistical programs, TLFs and reports. This connected the planned analysis, its implementation and the presentation of results.",
+      "metrics": "",
+      "galleryCaption": "Public reference · Not my project deliverable",
+      "group": "iqvia",
+      "status": "published",
+      "sortOrder": 30,
+      "period": "Oct 2024 — Feb 2026",
+      "sourceNote": "Responsibilities are based on the IQVIA heart failure study entry in my résumé. Images are unrelated public IQVIA methodology references. Their authors, projects and efficiency figures are not presented as my achievements.",
+      "steps": [
+        [
+          "01",
+          "PLAN"
+        ],
+        [
+          "02",
+          "MATCH"
+        ],
+        [
+          "03",
+          "REPORT"
+        ]
+      ],
+      "gallery": [
+        {
+          "src": "assets/statistical_delivery_cover_v1.png",
+          "alt": "Public IQVIA statistical delivery report cover, not my project output",
+          "caption": "Public IQVIA methodology brief, cover. A reference on statistical delivery, not a report from my heart failure study.",
+          "sourceUrl": "https://www.iqvia.com/-/media/iqvia/pdfs/library/insight-brief/2026/dssm-redefining-efficiency-2026.pdf",
+          "sourceLabel": "Source: original IQVIA PDF ↗"
+        },
+        {
+          "src": "assets/statistical_delivery_sap_tlf_v1.png",
+          "alt": "SAP, SDTM/ADaM and TLF alignment in a public IQVIA methodology brief",
+          "caption": "Public methodology reference, page 4. Describes the relationship between the SAP, dataset specifications, programs and TLFs; not a SAP I authored.",
+          "sourceUrl": "https://www.iqvia.com/-/media/iqvia/pdfs/library/insight-brief/2026/dssm-redefining-efficiency-2026.pdf#page=4",
+          "sourceLabel": "Source: original IQVIA PDF, page 4 ↗"
+        }
+      ],
+      "referenceMaterial": true,
+      "referenceLabel": "Public reference · Not my project deliverable",
+      "imageAlt": "Public IQVIA statistical delivery report cover, not my project output"
+    },
+    {
+      "id": "oncology",
+      "title": "Turning raw records into analysis-ready data",
+      "subtitle": "IQVIA · Real-world oncology studies",
+      "category": "BIOSTATISTICS / RWE",
+      "ownership": "IQVIA work case · Data processing / Programming / Review",
+      "image": "assets/oncology_cohort_poster_v1.png",
+      "url": "",
+      "tags": [
+        "SQL",
+        "Regular expressions",
+        "Mapping logic",
+        "Quality control",
+        "Patient funnels"
+      ],
+      "intro": "Preparing data for analysis through record identification, mapping and code review.",
+      "background": "Real-world oncology analysis depends on how records are identified and classified, and how patients enter an analysis population. These transformations affect patient characterization and subsequent analysis.",
+      "goal": "For an observational prostate cancer study, I used SQL, regular expressions, mapping logic and systematic quality control. Separately, I developed and reviewed patient funnel code for a real-world early breast cancer study.",
+      "process": "Prostate cancer: identification and mapping\nI used SQL and regular expressions with mapping logic and systematic quality control to support patient characterization and downstream analytical decisions. The focus was to make identification and classification rules explicit in data processing and keep the outputs reviewable.\n\nEarly breast cancer: patient funnel\nI developed and reviewed code implementing the study population selection logic. These were separate studies, presented here through their related data-processing responsibilities.",
+      "result": "Completed the relevant data-processing and patient-funnel programming and review work, supporting patient characterization and further analysis. ",
+      "metrics": "",
+      "galleryCaption": "Public reference · Not my project deliverable",
+      "group": "iqvia",
+      "status": "published",
+      "sortOrder": 40,
+      "period": "Oct 2024 — Feb 2026",
+      "sourceNote": "Responsibilities are based on the oncology studies listed in my IQVIA résumé entry. The illustration is from an unrelated public lung cancer study. It is a reference on multi-source identification and consistency, not a study or poster I contributed to.",
+      "steps": [
+        [
+          "01",
+          "IDENTIFY"
+        ],
+        [
+          "02",
+          "MAP"
+        ],
+        [
+          "03",
+          "VALIDATE"
+        ]
+      ],
+      "gallery": [
+        {
+          "src": "assets/oncology_cohort_poster_v1.png",
+          "alt": "Public IQVIA lung cancer data identification poster, not my project output",
+          "caption": "Public IQVIA poster, ISPE 2020. An example of multi-source diagnosis consistency and survival analysis; not my study.",
+          "sourceUrl": "https://www.iqvia.com/-/media/iqvia/pdfs/library/posters/what-counts-as-a-cancer-diagnosis-in-real-world-data.pdf",
+          "sourceLabel": "Source: original IQVIA PDF ↗"
+        }
+      ],
+      "referenceMaterial": true,
+      "referenceLabel": "Public reference · Not my project deliverable",
+      "imageAlt": "Public IQVIA lung cancer data identification poster, not my project output"
+    }
+  ],
+  "schemaVersion": 4,
+  "groups": [
+    {
+      "id": "independent",
+      "title": "Independent product",
+      "subtitle": "From a problem to a working product",
+      "label": "PERSONAL PRODUCT"
+    },
+    {
+      "id": "sinohealth",
+      "title": "Sinohealth · Data",
+      "subtitle": "Making data delivery reusable",
+      "label": "DATA & AUTOMATION"
+    },
+    {
+      "id": "iqvia",
+      "title": "IQVIA · Research",
+      "subtitle": "From research questions to evidence",
+      "label": "BIOSTATISTICS & RWE"
+    }
+  ]
+}

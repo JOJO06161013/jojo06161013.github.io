@@ -1,0 +1,22 @@
+/* === 真实结尾视频：独立舞台保留完整画幅 === */
+.ending-v6{height:230svh;background:#797b68}
+.ending-v6 .ending-stage{height:100svh;min-height:0;padding:5%;isolation:isolate}
+.ending-media-v6{position:absolute;inset:0;z-index:0;pointer-events:none}
+.ending-media-v6 img,.ending-media-v6 video{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain}
+#ending-hold-v6,#ending-video-v6{opacity:0}
+.ending-v6 .ending-copy{position:relative;z-index:2;width:31%;max-width:470px;text-shadow:0 2px 20px #27312255}
+.ending-v6 .ending-copy h2,html[data-language=zh] .ending-v6 .ending-copy h2{font-size:clamp(34px,4vw,64px);line-height:1.12;letter-spacing:-.035em}
+.ending-v6 .ending-copy p{font-size:14px;line-height:1.8}
+.ending-v6 .ending-copy a{min-height:44px;display:inline-flex;align-items:center}
+body.motion-static .ending-v6{height:100svh;min-height:600px}
+body.motion-static #ending-video-v6{visibility:hidden}
+@media(max-width:800px){
+ .ending-v6{height:215svh}
+ .ending-v6 .ending-stage{display:flex;flex-direction:column;justify-content:center;align-items:stretch;gap:22px;padding:64px 0 30px;min-height:540px}
+ .ending-v6 .ending-copy{width:auto;max-width:none;margin:0 6%;text-shadow:none}
+ .ending-v6 .ending-copy h2,html[data-language=zh] .ending-v6 .ending-copy h2{font-size:clamp(32px,8.8vw,48px);margin:14px 0}
+ .ending-v6 .ending-copy p{font-size:13px;margin:10px 0}
+ .ending-media-v6{position:relative;inset:auto;width:100%;aspect-ratio:16/9;flex-shrink:0}
+ body.motion-static .ending-v6{min-height:600px}
+}
+@media(prefers-reduced-motion:reduce){.ending-v6{height:100svh;min-height:600px}#ending-video-v6{visibility:hidden}}

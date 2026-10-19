@@ -1,0 +1,14 @@
+/* === 履历真实内容与抬手同时进入，不另设只有标题的空白过场 === */
+#intro-gap{height:65svh}
+.transition-caption-v7{display:none}
+.story-about{padding-top:32px}
+.story-about .story-column h2{margin-bottom:22px}
+.story-work{min-height:max(235svh,var(--work-hold-v9,0px))}
+@media(max-width:1100px){
+ #intro-gap{height:45svh}
+ .story-about{padding-top:calc(var(--nav-v7) + var(--media-v7) + 30px)}
+ .story-about .story-column h2{font-size:30px;margin:16px 0 22px}.story-about .story-column h2 br{display:none}
+ .story-work{min-height:max(240svh,var(--work-hold-v9,0px))}
+}
+body.motion-static #intro-gap{height:35svh}body.motion-static .story-work{min-height:100svh}
+@media(prefers-reduced-motion:reduce){#intro-gap{height:35svh}.story-work{min-height:100svh}}

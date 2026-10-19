@@ -1,0 +1,12 @@
+/* === 一个作品章节：标题、介绍和项目浏览共用人物舞台 === */
+.work-chapter-v15{position:static;display:block;margin:0;padding:0}
+.work-chapter-v15 .story-work{min-height:var(--work-hold-v9,100svh);padding-bottom:0}
+.work-chapter-v15 #work{padding-top:12px;min-height:0;scroll-margin-top:calc(var(--nav-v7) + 24px)}
+.work-chapter-v15 #work-list-v8>.work-controls{margin:0 0 8px;justify-content:flex-start}
+.work-chapter-v15 #work .work-strip{padding-top:8px}
+body.motion-static .work-chapter-v15 .story-work{min-height:0;padding-bottom:0}
+@media(max-width:1100px){
+ .work-chapter-v15 #work{padding-top:12px;scroll-margin-top:calc(var(--nav-v7) + var(--media-v7) + 24px)}
+ .work-chapter-v15 .story-work{padding-bottom:0}
+}
+@media(prefers-reduced-motion:reduce){.work-chapter-v15 .story-work{min-height:0;padding-bottom:0}}
