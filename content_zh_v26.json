@@ -1,0 +1,345 @@
+{
+  "name": "刘宇乔",
+  "englishName": "Yuqiao Liu",
+  "location": "北京 / Beijing",
+  "role": "数据分析 · AI 自动化 · 独立产品开发",
+  "email": "lyq19961013@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/yuqiaoliu0616",
+  "github": "",
+  "availability": "",
+  "portrait": "assets/hero_smile_v1.png",
+  "serviceScope": "",
+  "resume": "assets/Yuqiao_Liu_English_Resume_20261020_v3.pdf",
+  "summary": "拥有埃默里大学生物统计学公共卫生硕士及加州大学圣塔芭芭拉分校统计与数据科学学士背景。曾参与医药商业数据、真实世界研究与临床统计项目，也独立开发并持续运营 PinPet。关注如何把复杂需求转化为可复现的数据流程和可使用的产品。",
+  "education": [
+    {
+      "school": "埃默里大学",
+      "degree": "公共卫生硕士 · 生物统计学",
+      "year": "2024"
+    },
+    {
+      "school": "加州大学圣塔芭芭拉分校",
+      "degree": "理学学士 · 统计与数据科学",
+      "year": "2022"
+    }
+  ],
+  "experience": [
+    {
+      "company": "中康",
+      "role": "高级数据分析师",
+      "date": "2026.02 — 2026.08",
+      "text": "负责全国医药商业数据的标准化月度交付，独立对接六家医药客户的反馈与定制需求。主导结合 LLM 与确定性规则的双层质检体系，约 80% 的人工审核工作实现自动化，周期性数据交付由五天缩短至两天。"
+    },
+    {
+      "company": "IQVIA / 艾昆纬",
+      "role": "生物统计师",
+      "date": "2024.10 — 2026.02",
+      "text": "担任心衰研究的独立统计师，负责 SAP、SAS 倾向评分匹配、TLF 与报告；参与前列腺癌观察性研究的数据处理，以及早期乳腺癌真实世界研究的患者漏斗代码开发与复核。"
+    },
+    {
+      "company": "Atlanta Medical Center",
+      "role": "生物统计师",
+      "date": "2024.05 — 2024.10",
+      "text": "使用 Python / pandas 清洗和分析超过 12,000 条电子病历，支持两项慢性病真实世界研究；将临床问题转化为分析任务，复核并复现统计分析计划与输出。"
+    }
+  ],
+  "skills": [
+    "Python / pandas / NumPy",
+    "R / SAS / SQL / Stata",
+    "FastAPI / React / TypeScript",
+    "LP / MILP · SciPy / PuLP",
+    "AI 辅助工作流与自动化测试",
+    "SAP / PSM / SDTM / ADaM / TLF"
+  ],
+  "projects": [
+    {
+      "id": "pinpet",
+      "title": "PinPet",
+      "subtitle": "宠物营养平台与垂类 AI 助手研发",
+      "category": "独立产品",
+      "ownership": "独立产品 · 产品定义 / 交互设计 / AI 辅助研发 / 测试与运营",
+      "image": "assets/pinpet_v20/desktop_result_v1.png",
+      "url": "https://pinpet.cn",
+      "tags": [
+        "产品与交互设计",
+        "Claude / ChatGPT",
+        "AI Agent · 研发中",
+        "RAG · 关键词检索原型",
+        "Python / FastAPI",
+        "React / TypeScript",
+        "LP / MILP",
+        "自动化回归测试"
+      ],
+      "intro": "配餐平台已上线，结合犬况、食谱与知识检索的 AI Agent 持续研发中。",
+      "background": "宠物主人不仅需要选择食材和生成配方，也需要看懂营养结果，并将食谱转化为可以持续执行的供餐计划。PinPet 围绕这条使用路径连接犬况、食材、计算结果与日常安排，并探索用自然语言帮助用户理解自己的食谱。",
+      "goal": "我独立负责领域研究、需求拆解、功能规划、交互设计、前后端开发、测试、部署及持续维护；在已上线的配餐平台基础上，推进宠物垂类 AI Agent 与 RAG 原型研发。",
+      "process": "产品定位与全流程设计：围绕宠物主人“不会搭配食材、看不懂营养结果、难以持续执行”的用户痛点，独立完成领域研究、需求拆解、功能规划与交互设计，搭建犬况建档、食材选择、配方生成、营养评估、食谱保存及供餐计划的完整流程。使用 ChatGPT 辅助前端开发，并针对电脑端与移动端优化信息层级和操作路径。\n\nAI 辅助研发与质量保障：使用 AI 编程工作流完成代码开发与审查、测试生成及后端日志自动化维护；以 Python/FastAPI、React/TypeScript 实现前后端，建立覆盖算法、API、前端及移动端流程的自动化回归体系。\n\n垂类 AI Agent 与 RAG 设计（研发中）：结合犬况档案、当前食谱及对话上下文，设计支持营养问答、食谱解读与食材替换的 AI 助手；将营养研究资料整理为包含关键词、来源和审核状态的知识卡，构建基于关键词检索的 RAG 原型，设计知识检索、上下文组织与来源展示流程。使用 Claude 辅助需求拆解、方案比较和 Prompt 迭代，推动专业知识向可交互的产品功能转化。",
+      "result": "配餐平台已上线，串联犬况建档、选材、配方计算、营养明细、食谱保存与日历计划。AI Agent 与 RAG 目前处于研发阶段，知识卡仍在审核中。关键营养数值由确定性引擎计算，LLM 不进入计算内核。下方为配餐平台截图，不代表 Agent 已上线；分数展示软件在当前数据与规则下的计算结果，不代表临床验证或供餐建议。",
+      "metrics": "",
+      "galleryCaption": "真实产品截图 · 合成资料演示 · 2026-10-19",
+      "group": "independent",
+      "status": "published",
+      "sortOrder": 10,
+      "period": "2026.08 — 至今",
+      "imageAlt": "PinPet 电脑版配方结果，展示评分、品类构成与食材用量",
+      "sourceNote": "6 张网页/H5 截图于 2026-10-19 采自 pinpet.cn，使用 3 岁、12 kg 的合成示例犬。H5 图展示小程序共用业务页面，不等同微信真机验收；原生分享图为 2026-09-25 开发者工具历史截图。结构图依据项目代码整理，工作线路依据独立产品职责与项目记录整理。",
+      "gallery": [
+        {
+          "src": "assets/pinpet_v20/desktop_result_v1.png",
+          "alt": "01 / 电脑版配方结果",
+          "title": "01 / 电脑版配方结果",
+          "caption": "评分、品类构成、食材用量与保存入口集中呈现。来自线上真实计算，使用合成犬况，未修改结果数值。",
+          "format": "wide"
+        },
+        {
+          "src": "assets/pinpet_v20/desktop_nutrients_v1.png",
+          "alt": "02 / 可展开的营养明细",
+          "title": "02 / 可展开的营养明细",
+          "caption": "从汇总结果进入逐项核查，查看营养素数值、参考范围和状态。电脑版真实截图。",
+          "format": "wide"
+        },
+        {
+          "src": "assets/pinpet_v20/mobile_selection_v1.png",
+          "alt": "03 / 手机端选材",
+          "title": "03 / 手机端选材",
+          "caption": "五个食材摊位组织选择过程，支持手选、系统推荐与排除。当前 H5 业务界面。",
+          "format": "phone"
+        },
+        {
+          "src": "assets/pinpet_v20/mobile_result_v1.png",
+          "alt": "04 / 最终制作单",
+          "title": "04 / 最终制作单",
+          "caption": "犬况、制作天数、食材用量与分享入口组合成制作单。小程序共用 H5 的浏览器截图，非微信真机截图。",
+          "format": "phone"
+        },
+        {
+          "src": "assets/pinpet_v20/mobile_report_v1.png",
+          "alt": "05 / 读懂配方结果",
+          "title": "05 / 读懂配方结果",
+          "caption": "手机端同时展示评分拆解、剩余缺口与品类构成，让用户继续核查结果。",
+          "format": "phone"
+        },
+        {
+          "src": "assets/pinpet_v20/mobile_calendar_v1.png",
+          "alt": "06 / 从食谱到供餐计划",
+          "title": "06 / 从食谱到供餐计划",
+          "caption": "使用合成示例安排连续三天，展示保存食谱与日历计划之间的连接。",
+          "format": "phone"
+        },
+        {
+          "src": "assets/pinpet_v20/native_share_archive_v1.png",
+          "alt": "07 / 原生小程序制作单分享",
+          "title": "07 / 原生小程序制作单分享",
+          "caption": "2026-09-25 开发者工具历史截图：结构化备料清单与原生联系人分享入口。用于呈现已开发的分享界面，不代表本次真机测试。",
+          "format": "wide"
+        },
+        {
+          "src": "assets/pinpet_v20/architecture_zh_v1.svg",
+          "alt": "08 / 项目结构图",
+          "title": "08 / 项目结构图",
+          "caption": "一个确定性引擎连接版本化数据、接口与多个使用端。依据实际代码整理的结构示意，非线上监控图。",
+          "format": "diagram"
+        },
+        {
+          "src": "assets/pinpet_v20/ownership_zh_v1.svg",
+          "alt": "09 / 我的主要工作",
+          "title": "09 / 我的主要工作",
+          "caption": "按编号串联产品定义、数据整理、引擎构建、多端开发、系统验证与发布维护，说明我负责的完整链路。",
+          "format": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "让质检回到判断",
+      "subtitle": "中康 · 医药数据质检与审核自动化",
+      "category": "职业经历案例",
+      "ownership": "中康工作案例 · 主导质检体系开发",
+      "image": "assets/sinohealth_v18/workflow_zh_v18.svg",
+      "url": "",
+      "tags": [
+        "R / Shiny",
+        "规则质检",
+        "AI 辅助审核",
+        "模型评估",
+        "Excel 交付"
+      ],
+      "intro": "让规则找异常，让 AI 整理依据，把调整决定留给分析师。",
+      "background": "医药商业数据需要按月交付，也要响应客户的定制需求。重复清洗、异常核查和逐条解释占据了大量时间。发现异常只是第一步，分析师还需要判断异常的原因，以及是否应该调整。",
+      "goal": "我负责周期性数据交付，并主导可复用质检流程的开发，将确定性检查、AI 辅助解释和人工决策分开，减少重复核查，同时保留每一次调整的依据。",
+      "process": "我将异常标记、近期月度数值和复核字段整理成统一流程。规则先筛选候选记录；R/Shiny 原型支持预览候选行、生成结构化 AI 解释，并将结果导出到 Excel。提示词明确约束 AI 只辅助解释，不审批调整。\n\n在复核排序上，我进一步利用历史人工标签比较四种模型方案，按训练月与验证月切分数据，同时考察精确率—召回率指标、优先查看部分记录时的异常覆盖率，以及预计需要复核的记录量。实验将未填写的人工标签视为负例，这也是解读结果时需要保留的限制。",
+      "result": "历史材料已留下处理脚本、AI 解释原型、模型比较报告及复核清单导出逻辑。在两期数据的离线实验中，逻辑回归按 PR-AUC 排名最优。模型用于辅助安排复核优先级，最终调整仍由分析师判断。",
+      "metrics": "简历所述流程成效：约 80% 的人工审核工作实现自动化；周期性交付由 5 天缩短至 2 天。",
+      "galleryCaption": "原始评估图 + 依据代码整理的流程示意",
+      "group": "sinohealth",
+      "status": "published",
+      "sortOrder": 20,
+      "period": "2026.02 — 2026.08",
+      "sourceNote": "",
+      "steps": [
+        [
+          "01",
+          "规则筛选"
+        ],
+        [
+          "02",
+          "AI 解释"
+        ],
+        [
+          "03",
+          "人工复核"
+        ]
+      ],
+      "gallery": [
+        {
+          "src": "assets/sinohealth_v18/workflow_zh_v18.svg",
+          "alt": "规则筛选、AI 解释与人工复核的流程示意",
+          "caption": "方法示意 · 根据历史代码整理，展示规则、AI 与人工的分工；不是内部生产系统截图。"
+        },
+        {
+          "src": "assets/sinohealth_v18/recall_topk_curves_v18.png",
+          "alt": "四种模型的优先复核覆盖率原始对比图",
+          "caption": "原始离线评估图 · Recall@TopK：横轴为按模型排序后查看的记录比例，纵轴为覆盖的正例标签比例。用于比较复核优先级，不是整体分类准确率。"
+        }
+      ],
+      "imageAlt": "中康质检流程示意：规则筛选、AI 解释、人工复核",
+      "visualLabel": "项目流程示意"
+    },
+    {
+      "id": "research",
+      "title": "从研究问题，到可复核的统计交付",
+      "subtitle": "IQVIA · 心衰研究",
+      "category": "生物统计与真实世界研究",
+      "ownership": "IQVIA 工作案例 · 独立统计师",
+      "image": "assets/statistical_delivery_cover_v1.png",
+      "url": "",
+      "tags": [
+        "SAS",
+        "SAP",
+        "PSM",
+        "TLF",
+        "统计报告"
+      ],
+      "intro": "独立衔接分析计划、SAS 匹配分析与统计报告。",
+      "background": "心衰研究的统计工作，需要将研究问题落实到分析方案，再转化为可执行的程序和可以解读的输出。方案、分析与报告之间的衔接，是这项工作的核心。",
+      "goal": "作为该研究的独立统计师，我负责统计分析计划（SAP）的准备、SAS 倾向评分匹配（PSM）编程、表格／清单／图形（TLF）生成，以及统计报告交付。",
+      "process": "分析计划 → 统计程序 → 结果输出\n先准备 SAP，将研究目标转化为统计分析安排；再使用 SAS 完成倾向评分匹配，并生成 TLF，整理为报告。\n\n这条交付链的重点，是让分析方案提供依据、程序落实分析、表图承载结果。",
+      "result": "完成了从 SAP、统计程序到 TLF 与报告的一组统计交付。将分析安排、程序实现与结果呈现衔接起来。",
+      "metrics": "",
+      "galleryCaption": "公开资料示意 · 非本人项目交付",
+      "group": "iqvia",
+      "status": "published",
+      "sortOrder": 30,
+      "period": "2024.10 — 2026.02",
+      "sourceNote": "职责依据本人简历中的 IQVIA 心衰研究经历。配图为 IQVIA 公开方法资料，与本人项目无关；其中的作者、项目和效率数字不作为本人业绩。",
+      "steps": [
+        [
+          "01",
+          "分析计划"
+        ],
+        [
+          "02",
+          "匹配分析"
+        ],
+        [
+          "03",
+          "统计报告"
+        ]
+      ],
+      "gallery": [
+        {
+          "src": "assets/statistical_delivery_cover_v1.png",
+          "alt": "IQVIA 公开统计交付报告封面，非本人项目成果",
+          "caption": "IQVIA 公开方法资料 · 报告封面。用于说明统计交付主题，不是本心衰研究的报告。",
+          "sourceUrl": "https://www.iqvia.com/-/media/iqvia/pdfs/library/insight-brief/2026/dssm-redefining-efficiency-2026.pdf",
+          "sourceLabel": "来源：IQVIA 原始 PDF ↗"
+        },
+        {
+          "src": "assets/statistical_delivery_sap_tlf_v1.png",
+          "alt": "IQVIA 公开方法资料中的 SAP、SDTM/ADaM 与 TLF 配套说明",
+          "caption": "公开方法资料 · 第 4 页。展示 SAP、数据集规范、程序与 TLF 的配套关系，不是本人编写的 SAP。",
+          "sourceUrl": "https://www.iqvia.com/-/media/iqvia/pdfs/library/insight-brief/2026/dssm-redefining-efficiency-2026.pdf#page=4",
+          "sourceLabel": "来源：IQVIA 原始 PDF 第 4 页 ↗"
+        }
+      ],
+      "referenceMaterial": true,
+      "referenceLabel": "公开资料示意 · 非本人项目交付",
+      "imageAlt": "IQVIA 公开统计交付报告封面，非本人项目成果"
+    },
+    {
+      "id": "oncology",
+      "title": "让原始记录成为可以分析的数据",
+      "subtitle": "IQVIA · 肿瘤真实世界研究",
+      "category": "生物统计与真实世界研究",
+      "ownership": "IQVIA 工作案例 · 数据处理 / 编程 / 复核",
+      "image": "assets/oncology_cohort_poster_v1.png",
+      "url": "",
+      "tags": [
+        "SQL",
+        "正则表达式",
+        "映射逻辑",
+        "质量控制",
+        "患者漏斗"
+      ],
+      "intro": "围绕数据识别、规则映射与代码复核，为后续分析准备数据。",
+      "background": "肿瘤真实世界研究的数据工作，需要先明确记录如何识别、如何归类，以及哪些患者进入分析。原始记录到分析数据之间的转换规则，会影响患者特征描述与后续分析。",
+      "goal": "在前列腺癌观察性研究中，我使用 SQL、正则表达式、映射逻辑和系统性质控支持数据处理；在另一项早期乳腺癌真实世界研究中，开发并复核患者漏斗代码。",
+      "process": "前列腺癌研究：识别与映射\n使用 SQL 和正则表达式处理记录，结合映射逻辑与系统性质控，支持患者特征描述和下游分析决策。关键在于把识别与归类规则落实到数据处理中，使处理结果可以检查。\n\n早期乳腺癌研究：患者漏斗\n开发并复核患者漏斗代码，将研究人群的筛选逻辑落实到程序中。两项研究分别开展，这里按共同的数据工作方法呈现。",
+      "result": "完成相关数据处理与患者漏斗编程、复核工作，为患者特征描述和后续分析提供支持。",
+      "metrics": "",
+      "galleryCaption": "公开资料示意 · 非本人项目交付",
+      "group": "iqvia",
+      "status": "published",
+      "sortOrder": 40,
+      "period": "2024.10 — 2026.02",
+      "sourceNote": "职责依据本人简历中的 IQVIA 肿瘤研究经历。下方配图来自另一项公开的肺癌研究，用于说明多来源识别与一致性问题，不代表本人参与该海报或研究。",
+      "steps": [
+        [
+          "01",
+          "数据识别"
+        ],
+        [
+          "02",
+          "规则映射"
+        ],
+        [
+          "03",
+          "质量复核"
+        ]
+      ],
+      "gallery": [
+        {
+          "src": "assets/oncology_cohort_poster_v1.png",
+          "alt": "IQVIA 公开肺癌数据识别海报，非本人项目成果",
+          "caption": "IQVIA 公开研究海报 · ISPE 2020。多来源诊断一致性与生存分析示例，非本人参与研究。",
+          "sourceUrl": "https://www.iqvia.com/-/media/iqvia/pdfs/library/posters/what-counts-as-a-cancer-diagnosis-in-real-world-data.pdf",
+          "sourceLabel": "来源：IQVIA 原始 PDF ↗"
+        }
+      ],
+      "referenceMaterial": true,
+      "referenceLabel": "公开资料示意 · 非本人项目交付",
+      "imageAlt": "IQVIA 公开肺癌数据识别海报，非本人项目成果"
+    }
+  ],
+  "schemaVersion": 4,
+  "groups": [
+    {
+      "id": "independent",
+      "title": "独立产品",
+      "subtitle": "从问题到可使用的产品",
+      "label": "个人产品"
+    },
+    {
+      "id": "sinohealth",
+      "title": "中康 · 数据与自动化",
+      "subtitle": "让数据交付更可复用",
+      "label": "数据与自动化"
+    },
+    {
+      "id": "iqvia",
+      "title": "IQVIA · 统计与研究",
+      "subtitle": "从研究问题到分析证据",
+      "label": "生物统计与真实世界研究"
+    }
+  ]
+}
